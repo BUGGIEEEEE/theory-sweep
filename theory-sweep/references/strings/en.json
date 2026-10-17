@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "title_suffix": "Theory integration candidates (theory sweep, {date})",
+  "title_marker": "Theory integration candidates",
+  "status_line": "Status: AI survey and comparison proposal. Not adopted; effectiveness not proven.",
+  "run_line": "Run: model {model}, reasoning {effort}",
+  "candidate_heading": "## <candidate name> — <author> <year>, <work title>",
+  "labels": {
+    "meaning": "Plain meaning",
+    "problem": "Which problem it touches",
+    "proposal": "Integration candidate",
+    "scene": "Example scene",
+    "limits": "Counterexamples and limits",
+    "status": "Status"
+  },
+  "status_value": "Proposal. Not adopted; effectiveness not proven.",
+  "already_met": "already met",
+  "no_candidates": "No integration candidates",
+  "no_example_rule": "No example rule",
+  "sections": {
+    "not_proposed": "Reviewed but not proposed",
+    "unverified": "Unverified",
+    "recheck": "Source recheck"
+  },
+  "unverified_title_marker": " · Unverified: source unverified",
+  "unverified_item_prefix": "Unverified:",
+  "unverified_item_format": "- Unverified: <what> — reason: <why>",
+  "nothing_unverified": "Nothing unverified",
+  "recheck_marker": "⟨recheck {date}: {verdict}⟩",
+  "chat_end": {"investigator": "Review done", "judge": "Judging done", "rechecker": "Recheck done"},
+  "synthesis_title": "Theory sweep synthesis — {date}",
+  "synthesis_metrics": {
+    "fields": "Fields",
+    "reports": "Reports",
+    "candidates": "Candidates",
+    "already_met_any": "Already met (any)",
+    "already_met_full": "Already met (fully)",
+    "unverified": "Unverified (title line)"
+  }
+}

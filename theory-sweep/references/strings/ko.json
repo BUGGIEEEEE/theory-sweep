@@ -1,0 +1,41 @@
+{
+  "lang": "ko",
+  "title_suffix": "이론 접목 후보 (theory sweep, {date})",
+  "title_marker": "이론 접목 후보",
+  "status_line": "지위: AI 조사·비교 제안. 채택·효과 입증 아님.",
+  "run_line": "실행 조건: 모델 {model}, 추론 {effort}",
+  "candidate_heading": "## <후보 이름> — <저자> <연도>, <문헌 제목>",
+  "labels": {
+    "meaning": "쉬운 뜻",
+    "problem": "이 도구의 어느 문제에 닿는가",
+    "proposal": "접목 후보",
+    "scene": "예시 장면",
+    "limits": "반례·한계",
+    "status": "지위"
+  },
+  "label_aliases": {"scene": ["가계부 장면"]},
+  "status_value": "제안. 채택·효과 입증 아님.",
+  "already_met": "이미 충족",
+  "no_candidates": "접목 후보 없음",
+  "no_example_rule": "예시 규칙 없음",
+  "sections": {
+    "not_proposed": "검토했으나 올리지 않은 것",
+    "unverified": "미확인",
+    "recheck": "출처 재확인"
+  },
+  "unverified_title_marker": " · 미확인: 출처 미확인",
+  "unverified_item_prefix": "미확인:",
+  "unverified_item_format": "- 미확인: <내용> — 이유: <이유>",
+  "nothing_unverified": "확인하지 못한 것 없음",
+  "recheck_marker": "⟨재확인 {date}: {verdict}⟩",
+  "chat_end": {"investigator": "검토 끝", "judge": "판정 끝", "rechecker": "재확인 끝"},
+  "synthesis_title": "학문 분야별 이론 접목 검토 통합 (theory sweep 00-synthesis) — {date}",
+  "synthesis_metrics": {
+    "fields": "분야 수",
+    "reports": "보고 수",
+    "candidates": "후보 수",
+    "already_met_any": "이미 충족 수",
+    "already_met_full": "전부 충족 수",
+    "unverified": "미확인 수"
+  }
+}
